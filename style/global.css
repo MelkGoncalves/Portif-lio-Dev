@@ -27,22 +27,26 @@
     --Title-sm: 400px 24px/140% var(--font-family-maven);
 
     --font-family-inconsolata: "Inconsolata", sans-serif;
-    --subtitle: 400px 20px/120% var(--font-family-inconsolata);
+    --subtitle: 400px 20px/120px% var(--font-family-inconsolata);
 
 }
 
 body {
     /* Gray/gray-400 */
     background: #1E1E1E;
-    border-radius: 40px;
 }
 
-#page {
+.page {
+    position: relative;
 
     background-color: #29292E;
-    width: 1566px;
+    max-width: 1566px;
     height: 3088px;
     border-radius: 40px;
+    margin: 0px auto;
+    padding: 80px 100px;
+    
+
 }
 
     
