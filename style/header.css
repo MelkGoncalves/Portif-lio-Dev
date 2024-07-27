@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 56px;
 
     width: 1040px;
     height: 447px;
@@ -14,6 +13,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     
+    
 }
 
 #inicio {
@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 56px;
+    /* gap: 56px; */
 
     width: 680px;
     height: 327px;
@@ -34,6 +34,7 @@
     height: 112px;
     width: 112px;
     object-fit: cover;
+    margin-bottom: 56px;
     
 }
 
@@ -52,13 +53,13 @@ h1 {
     text-align: center;
     width: 680px;
     height: 67px;
+    margin-bottom: 20px;
 }
 
 #text p {
     font: var(--title-md);
     color: var(--grey-400-color);
     text-align: center;
-    height: 40px;
 }
 
 nav  {
@@ -116,7 +117,7 @@ nav  {
 }
 
 #vector {
-    padding-top: 94px;
     width: 34px;
     height: 34px;
+    margin: 94px;
 }

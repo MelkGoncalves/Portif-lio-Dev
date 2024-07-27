@@ -6,7 +6,7 @@ main {
     position: relative;    
 }
 
-section {
+#section section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
@@ -15,7 +15,7 @@ section {
     margin: 56px 163px 144px;
 }
 
-figure {
+#main figure {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -27,7 +27,7 @@ figure {
     padding: 12px 12px 17px;
 }
 
-section img{
+#main section img{
     width: 306px;
     height: 156px;
     border-radius: 8px;
@@ -59,27 +59,27 @@ section img{
     text-align: center;
 }
 
-figcaption {
+#main figcaption {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 8px;    
 }
 
-figcaption h3 {
+#main figcaption h3 {
     font: var(--title-sm-as);
     color: var(--grey-600-color);
     width: 298px;
     height: 19px;
 }
 
-figcaption p {
+#main figcaption p {
     font: var(--title-md);
     color: var(--grey-500-color);
     padding-left: 1px;
 }
 
-figure:hover {
+#main figure:hover {
     border: 1.5px solid #878EA1;
 }
  
