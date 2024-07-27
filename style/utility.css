@@ -2,4 +2,14 @@
     display: grid;
   }
   
+  .grid-flow-col {
+    grid-auto-flow: column;
+  }
   
+  .grid-flow-cols-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h3 span {
+    color: var(--red-color);
+}
