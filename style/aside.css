@@ -1,0 +1,45 @@
+aside {
+    display: grid;
+    justify-items: center;
+    gap: 56px;
+    background-color: var(--grey-color);
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    width: 355px;
+    height: 61px;
+    margin-top: 88px;
+}
+
+#services h3 {
+    font: var(--subtitle);    
+}
+
+#services h2 {
+    font: var(--title-md-as); 
+    color: var(--grey-600-color);   
+}
+
+#serv-1 {
+    display: flex;
+    gap: 20px;
+}
+
+#serv-1 figure {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 280px;
+    max-height: 155px;
+    border-radius: 12px;
+}
+
+#serv-1 figure img {
+    width: 48px;
+    height: 48px;
+
+}
