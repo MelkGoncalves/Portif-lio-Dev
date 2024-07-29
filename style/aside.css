@@ -3,6 +3,8 @@ aside {
     justify-items: center;
     gap: 56px;
     background-color: var(--grey-color);
+    max-height: 480px;
+    padding: 0px 120px 120px;
 }
 
 #services {
@@ -26,20 +28,42 @@ aside {
 
 #serv-1 {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
+    width: 888px;
+    height: 155px;
+    margin: 0 120px 120px;
+    
 }
 
 #serv-1 figure {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     gap: 20px;
-    max-width: 280px;
+    min-width: 280px;
     max-height: 155px;
+    padding: 20px;
+
+    border: solid 2px #16181D;
     border-radius: 12px;
 }
 
 #serv-1 figure img {
     width: 48px;
     height: 48px;
+    
 
+}
+
+figcaption h3 {
+    font: var(--title-sm-as);
+    color: var(--grey-600-color);
+    margin-bottom: 8px;
+}
+
+#serv-1 figcaption p {
+    font: var(--title-md);
+    color: var(--grey-500-color);
 }
