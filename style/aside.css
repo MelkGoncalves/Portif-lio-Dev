@@ -50,6 +50,10 @@ aside {
     border-radius: 12px;
 }
 
+/* figure:hover  {
+    border: 1.5px solid #878EA1;
+} */
+
 #serv-1 figure img {
     width: 48px;
     height: 48px;
