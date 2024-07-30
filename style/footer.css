@@ -1,0 +1,116 @@
+footer {
+    display: grid;
+    justify-content: center;
+
+    background-image: url(../assets/Image/Background_Contacts.png);
+    background-size: contain;
+    width: 1366px;
+    height: 787px;
+    padding: 128px 120px 200px;
+
+}
+
+#header-con {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 420px;
+   height: 91px;
+   gap: 8px;   
+   margin-bottom: 48px;
+}
+
+#header-con h3 {
+    font: var(--subtitle);
+    color: var(--purple-color);
+}
+#header-con h2 {
+    font: var(--title-md-as);
+    color: var(--grey-600-color);
+}
+#header-con p {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--grey-500-color);
+}
+
+#links {
+    display: grid;
+    gap: 16px;
+    justify-content: center;
+
+    max-width: 420px;
+    max-height: 320px;
+}
+
+#links a {
+    min-width: 288px;
+    min-height: 22px; 
+    margin: 0 12px;
+
+    text-decoration: none;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--grey-500-color);
+
+}
+
+#linkdin img {
+    width: 28px;
+    height: 28px;
+    margin: 20px 0px 20px 20px;
+}
+
+
+#linkdin img:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    margin: 24px 20px;
+    padding: 0;
+}
+
+
+#insta img {
+    width: 28px;
+    height: 28px;
+    margin: 20px 0px 20px 20px;
+}
+
+#insta img:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    margin: 24px 20px;
+    padding: 0;
+}
+
+#git img {
+    width: 28px;
+    height: 28px;
+    margin: 20px 0px 20px 20px;
+}
+
+#git img:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    margin: 24px 20px;
+    padding: 0;
+}
+
+#mail img {
+    width: 28px;
+    height: 28px;
+    margin: 20px 0px 20px 20px;
+}
+
+#mail img:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    margin: 24px 20px;
+    padding: 0;
+}

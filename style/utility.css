@@ -6,8 +6,36 @@
     display: flex;
   }
   
-  
 
   h3 span {
     color: var(--red-color);
 }
+
+.conts {
+  
+    display: flex;
+    align-items: center;
+    
+    
+    
+    min-width: 400px;
+    height: 68px;
+    border-radius: 8px;
+
+
+    background-color: var(--grey-300-color);
+}
+
+.container {
+  transition: transform 0.3s;
+}
+
+.container:hover {
+  background-color: #16181D;
+  transform: scale(1.1); 
+  
+}
+
+
+
+
